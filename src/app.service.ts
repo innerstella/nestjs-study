@@ -1,12 +1,10 @@
 import { Injectable } from '@nestjs/common';
 
+// NOTE: service는 비즈니스 로직을 처리하는 역할
 @Injectable()
 export class AppService {
-  sayHello(): string {
-    return 'Hello everyone!!';
+  getHello(): string {
+    return 'Hello World!';
   }
 
-  getHello(): string {
-    return 'Hello World!ㄴㄴ';
-  }
 }
